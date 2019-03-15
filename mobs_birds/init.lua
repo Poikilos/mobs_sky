@@ -22,7 +22,8 @@ if mobs.mod and mobs.mod == "redo" then
 		walk_start = 1,		walk_end = 95,
 		run_start = 1,		run_end = 95
 	}
-	local l_model				= "animal_gull.b3d"
+	local l_gull_model			= "animal_gull.b3d"
+	local l_thrush_model		= "mobs_birds_thrush.b3d"
 	local l_egg_texture			= "default_cloud.png"
 	local l_capture_chance_h	= 5
 	local l_capture_chance_n	= 60
@@ -51,7 +52,7 @@ if mobs.mod and mobs.mod == "redo" then
 			armor = 100,
 			collisionbox = {-1, -0.3, -1, 1, 0.3, 1},
 			visual = "mesh",
-			mesh = l_model,
+			mesh = l_gull_model,
 			textures = l_skins_gull,
 			rotate = 270,
 			walk_velocity = 4,
@@ -83,7 +84,7 @@ if mobs.mod and mobs.mod == "redo" then
 			armor = 100,
 			collisionbox = {-0.5, -0.3, -0.5, 0.5, 0.3, 0.5},
 			visual = "mesh",
-			mesh = l_model,
+			mesh = l_thrush_model,
 			textures = l_skins_bird,
 			visual_size = {x=.5, y=.5},
 			rotate = 270,
@@ -116,7 +117,7 @@ if mobs.mod and mobs.mod == "redo" then
 			armor = 100,
 			collisionbox = {-0.25, -0.3, -0.25, 0.25, 0.3, 0.25},
 			visual = "mesh",
-			mesh = l_model,
+			mesh = l_thrush_model,
 			textures = l_skins_bird,
 			visual_size = {x=.25, y=.25},
 			rotate = 270,
