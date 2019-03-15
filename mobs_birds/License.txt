@@ -6,8 +6,10 @@
 * Media: CC BY-SA 3.0
   http://creativecommons.org/licenses/by-sa/3.0/de/legalcode
   * textures by poikilos (sapier's textures are no longer included)
-  * original model by sapier (animation, mesh, and UV layout changed by
-    poikilos)
+    * bird_bluish.png is based on a "Lovely Cotinga."
+  * original gull model by sapier (animation, mesh, and UV layout
+    changed by poikilos). Other bird models based on original gull:
+    * mobs_birds_thrush.b3d: mesh and animation modified by poikilos
 
 * Code:
   The distributor of the original mobs_sky modpack implicitly permits
@@ -18,7 +20,7 @@
   <https://github.com/blert2112/mobs_sky/pull/1>) the
   mobs_sky modpack.
 
-Further evidence of author's indent: by including a license file in each
+Further evidence of author's intent: by including a license file in each
 mod that doesn't mention any boundaries (other than CC licenses which
 have been retained here) in a public repository, the original author(s)
 indicate(s) that the code and media are publicly licensed, as opposed to
