@@ -1,1 +1,1 @@
-*.x linguist-vendored
+*.x -linguist-detectable
